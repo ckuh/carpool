@@ -26,7 +26,7 @@ const App = React.createClass({
               </button>
               <div className="logo">
                 <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=logo&w=50&h=50" />
-              </div>              
+              </div>
               <a className="navbar-brand" href="#">EventPool</a>
             </div>
             <div id="navbar" className="navbar-collapse collapse">
