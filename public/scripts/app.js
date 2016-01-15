@@ -9,7 +9,12 @@ import { SignInForm, SignInBox } from './signin';
 import { SignUpForm, SignUpBox } from './signup';
 import { EventfulAPIKey } from './config';
 
-var EventfulAPI = 'http://api.eventful.com/json/events/search?app_key=' + EventfulAPIKey;
+// commented out because passing props between component files is difficult with react router
+// import { DriverForm, DriverBox } from './driver';
+// import { DriverInfo, DriversList, GetDriversData } from './rider';
+
+var EventfulAPIKey = 'bMhbgh3kzp8mTZtC';
+var EventfulAPI = 'https://api.eventful.com/json/events/search?app_key=' + EventfulAPIKey;
 
 const App = React.createClass({
   logout: function() {
