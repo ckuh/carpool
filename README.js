@@ -3,7 +3,7 @@
 //-----------
 //
 //Enter this into terminal
-mysql.server start
+mysql.server start.
 mysql -u root //Logs you into mysql with username "root" and no password
 create database carpool; //Must close all sql commands with semicolon!
 
