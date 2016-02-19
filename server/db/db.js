@@ -35,9 +35,10 @@ var TripUser = sequelize.define("TripUser", {
 Trip.belongsToMany(User, {through: TripUser});
 User.belongsToMany(Trip, {through: TripUser});
 
-User.sync();
-Trip.sync();
-TripUser.sync();
+TripUser.sync().then(function(){
+  User.sync();
+  Trip.sync();
+});
 
 exports.User = User;
 exports.Trip = Trip;
