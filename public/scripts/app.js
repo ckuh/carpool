@@ -13,7 +13,6 @@ import { EventfulAPIKey } from './config';
 // import { DriverForm, DriverBox } from './driver';
 // import { DriverInfo, DriversList, GetDriversData } from './rider';
 
-var EventfulAPIKey = 'bMhbgh3kzp8mTZtC';
 var EventfulAPI = 'https://api.eventful.com/json/events/search?app_key=' + EventfulAPIKey;
 
 const App = React.createClass({
